@@ -7,7 +7,6 @@ app.component require('d-before-unload')
 app.component(require('d-passport/component'))
 app.component(require('derby-flash')(app))
 
-
 handleUserReg = (page, model, params, next) -> 
   userId = model.get '_session.userId'
   return next() if !userId

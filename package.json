@@ -1,0 +1,39 @@
+{
+  "name": "d-passport-example",
+  "description": "",
+  "version": "0.1.0",
+  "publishConfig": {},
+  "scripts": {
+    "start": "coffee server.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ile/d-passport-example.git"
+  },
+  "dependencies": {
+    "coffee-script": "~1.7.1",
+    "coffeeify": "*",
+    "connect-redis": "^2.1.0",
+    "d-before-unload": "*",
+    "d-connection-alert": "*",
+    "d-passport": "git://github.com/ile/d-passport#master",
+    "derby": "*",
+    "derby-flash": "*",
+    "derby-stylus": "*",
+    "express": "~3",
+    "express-session": "*",
+    "install": "^0.1.7",
+    "livedb-mongo": "*",
+    "npm": "^2.1.5",
+    "racer": "*",
+    "racer-bundle": "*",
+    "racer-highway": "*",
+    "redis": "0.12.1",
+    "share": "*"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {}
+}

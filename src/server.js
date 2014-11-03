@@ -36,12 +36,11 @@ function setup(app, options, cb) {
   , redis: redisClient
   });
 
-
   var options = {
       "site": {
-          "domain": "http://localhost:3000",
-          "name": "My Site",
-          "email": "admin@mysite.com"
+          "domain": "https://d-passport.herokuapp.com",
+          "name": "d-passport-example",
+          "email": "admin@d-passport.herokuapp.com"
       },
       "smtp": {
           "host": "smtp.mailgun.org",

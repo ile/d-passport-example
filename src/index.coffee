@@ -22,4 +22,3 @@ app.post '*', handleUserReg
 
 app.get '/:room?', (page, model, {room}, next) ->
   page.render(room or 'home')
-

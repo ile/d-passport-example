@@ -46,7 +46,7 @@ function setup(app, options, cb) {
           "host": "smtp.mailgun.org",
           "port": "587",
           "user": "postmaster@app31228337.mailgun.org",
-          "pass": "03b3c777fe8a8de5b34e6458be476aa8"
+          "pass": "secret"
       }
   }
 
